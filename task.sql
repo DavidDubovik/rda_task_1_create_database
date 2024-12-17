@@ -4,7 +4,7 @@ USE ShopDB;
 
 CREATE TABLE Products (
     ID INT AUTO_INCREMENT,
-    ProductName VARCHAR(50),
+    Name VARCHAR(50),
     Description TEXT,
     Price INT,
     WarehouseAmount INT,
